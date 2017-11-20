@@ -40,3 +40,6 @@ bootstrap.mlockall: true
 
 discovery.zen.ping.multicast.enabled: false
 
+### Port ###
+
+http.port: 9217
