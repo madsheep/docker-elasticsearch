@@ -16,8 +16,8 @@ VOLUME ["/data"]
 # Define working directory.
 WORKDIR /data
 
-EXPOSE 9200
-EXPOSE 9300
+EXPOSE 9217
+EXPOSE 9301
 
 # Elasticsearch plugins woop!
 RUN /elasticsearch/bin/plugin install elasticsearch/elasticsearch-cloud-aws/2.7.1
